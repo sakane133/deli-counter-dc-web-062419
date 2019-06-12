@@ -18,3 +18,8 @@ def take_a_number(katz,name)
   katz << name 
   puts "Welcome, #{name}. You are number #{katz.length} in line."
 end 
+
+def now_serving(katz)
+  if katz == 0 
+    "The line is empty"
+end 
