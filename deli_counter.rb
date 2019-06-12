@@ -21,5 +21,5 @@ end
 
 def now_serving(katz)
   if katz == 0 
-    "The line is empty"
+    "The line is empty."
 end 
