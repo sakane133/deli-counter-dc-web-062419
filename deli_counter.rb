@@ -21,5 +21,7 @@ end
 
 def now_serving(katz)
   if katz == 0 
-    "The line is empty."
+    "There is nobody waiting to be served!"
+  else
+    katz.pop
 end 
