@@ -1,6 +1,5 @@
 # Write your code here.
 
-kats_deli = []
 katz_deli = "The line is currently:"
 def line(num) 
   if num.size == 0
@@ -15,6 +14,7 @@ else
 end
 end
 
-def take_a_number
-  
+def take_a_number(katz_deli,name)
+  line = []
+  line << 
 end 
