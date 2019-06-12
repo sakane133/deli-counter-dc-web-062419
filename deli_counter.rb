@@ -21,8 +21,8 @@ end
 
 def now_serving(katz)
   if katz == 0 
-    "There is nobody waiting to be served!"
+    puts "There is nobody waiting to be served!"
   else
-    "Now serving #{katz.pop}."
+    puts "Now serving #{katz.pop}."
 end 
 end
