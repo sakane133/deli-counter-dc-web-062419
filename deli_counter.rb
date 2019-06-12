@@ -23,5 +23,6 @@ def now_serving(katz)
   if katz == 0 
     "There is nobody waiting to be served!"
   else
-    katz.pop
+    "Now serving #{katz.pop}."
 end 
+end
