@@ -23,6 +23,6 @@ def now_serving(katz)
   if katz.size == 0 
     puts "There is nobody waiting to be served!"
   else
-    "Now serving #{katz.shift}."
+    "Currently serving #{katz.shift}."
 end 
 end
