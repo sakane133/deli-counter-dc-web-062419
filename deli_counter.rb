@@ -14,7 +14,8 @@ else
 end
 end
 
-def take_a_number(katz_deli,name)
-  line = []
+def take_a_number(katz,name)
+  katz << name 
+  
   
 end 
